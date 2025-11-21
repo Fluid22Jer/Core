@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="core_tabs_options" inherit_id="web_editor.snippets.options">
+        <xpath expr="//we-selectors" position="inside">
+
+            <!-- Register the options handler for the snippet -->
+            <we-options name="core_tabs_options" data-selector=".x-tabs-wrapper">
+
+                <!-- Width Slider -->
+                <we-slider 
+                    string="Tabs Container Width"
+                    name="width"
+                    data-set="width"
+                    min="400"
+                    max="1800"
+                    step="20"
+                />
+
+            </we-options>
+
+        </xpath>
+    </template>
+</odoo>

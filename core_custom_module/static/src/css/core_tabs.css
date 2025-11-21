@@ -1,0 +1,9 @@
+.x-tabs-bar{
+ gap:10px;
+}
+.x-tab-item{
+ cursor:pointer;
+}
+.x-tab-img-inactive, .x-tab-img-active{
+ width:200px;
+}

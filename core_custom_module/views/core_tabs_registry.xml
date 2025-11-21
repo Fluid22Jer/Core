@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo>
+ <template id="core_tabs_registry" inherit_id="website.snippets">
+   <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+     <t t-snippet="core_custom_module.core_tabs"
+        string="CORE Image Tabs"
+        t-thumbnail="/core_custom_module/static/src/img/core_tabs_thumb.svg"
+        group="structure"/>
+   </xpath>
+ </template>
+</odoo>

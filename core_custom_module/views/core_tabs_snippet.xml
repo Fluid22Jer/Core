@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="core_tabs" name="CORE Image Tabs">
+        <section class="o_snippet x-tabs-wrapper">
+
+<!-- FIXED SEAMLESS TAB STRIP -->
+<div class="x-series-tab-strip d-flex justify-content-center align-items-center gap-3 p-0 m-0 o_not_editable">
+
+    <!-- TAB 1 -->
+    <div class="x-series-tab active" data-target="content1">
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-default o_we_custom_image"/>
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-active o_we_custom_image"/>
+    </div>
+
+    <!-- TAB 2 -->
+    <div class="x-series-tab" data-target="content2">
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-default o_we_custom_image"/>
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-active o_we_custom_image"/>
+    </div>
+
+    <!-- TAB 3 -->
+    <div class="x-series-tab" data-target="content3">
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-default o_we_custom_image"/>
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-active o_we_custom_image"/>
+    </div>
+
+    <!-- TAB 4 -->
+    <div class="x-series-tab" data-target="content4">
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-default o_we_custom_image"/>
+        <img src="/web/image/placeholder.png"
+             class="x-series-tab-img tab-img-active o_we_custom_image"/>
+    </div>
+
+</div>
+
+            <!-- CONTENT AREA -->
+            <div class="row x-series-content mt-4 align-items-start">
+
+                <!-- BLOCK 1 -->
+                <div id="content1" class="x-series-block row">
+
+                    <div class="col-md-5 p-0">
+                        <img src="/web/image/placeholder.png"
+                             class="img-fluid rounded shadow-sm o_we_custom_image"/>
+                    </div>
+
+                    <div class="col-md-7 p-0">
+                        <h2>Before</h2>
+                        <p>Before series description goes here.</p>
+                        <ul>
+                            <li>Bullet 1</li>
+                            <li>Bullet 2</li>
+                            <li>Bullet 3</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- BLOCK 2 -->
+                <div id="content2" class="x-series-block row" style="display:none;">
+
+                    <div class="col-md-5 p-0">
+                        <img src="/web/image/placeholder.png"
+                             class="img-fluid rounded shadow-sm o_we_custom_image"/>
+                    </div>
+
+                    <div class="col-md-7 p-0">
+                        <h2>Cruise</h2>
+                        <p>Description for Cruise series.</p>
+                        <ul>
+                            <li>Bullet A</li>
+                            <li>Bullet B</li>
+                            <li>Bullet C</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- BLOCK 3 -->
+                <div id="content3" class="x-series-block row" style="display:none;">
+
+                    <div class="col-md-5 p-0">
+                        <img src="/web/image/placeholder.png"
+                             class="img-fluid rounded shadow-sm o_we_custom_image"/>
+                    </div>
+
+                    <div class="col-md-7 p-0">
+                        <h2>Camp</h2>
+                        <p>Description for Camp series.</p>
+                        <ul>
+                            <li>Bullet X</li>
+                            <li>Bullet Y</li>
+                            <li>Bullet Z</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- BLOCK 4 -->
+                <div id="content4" class="x-series-block row" style="display:none;">
+
+                    <div class="col-md-5 p-0">
+                        <img src="/web/image/placeholder.png"
+                             class="img-fluid rounded shadow-sm o_we_custom_image"/>
+                    </div>
+
+                    <div class="col-md-7 p-0">
+                        <h2>Crawl</h2>
+                        <p>Description for Crawl series.</p>
+                        <ul>
+                            <li>Bullet R</li>
+                            <li>Bullet S</li>
+                            <li>Bullet T</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </template>
+</odoo>
